@@ -6,4 +6,4 @@ Thành viên:
 
       Nguyễn Trần Nhật Minh - 21003345
     
-      Dương Ngô Mạnh -
+      Dương Ngô Mạnh - 21001715
