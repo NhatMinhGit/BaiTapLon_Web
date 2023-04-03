@@ -1,6 +1,5 @@
 
-Tên dự án: GearVN - Website chuyên bán máy tính và linh kiện điện tử
-
+Tên dự án: Mona - Website chuyên về đồng hồ
 
 Thành viên:
 
