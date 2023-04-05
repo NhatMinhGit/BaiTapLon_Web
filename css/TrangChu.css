@@ -84,10 +84,12 @@
     font-size: 40px;
 }
 .slide_menu{
+    display: flex;
     height: 600px;
     width: 100%;
 }
 .slide_menu_description{
+    
     height: 700px;
     width: 1200px;
     padding-top: 175px;
@@ -107,3 +109,108 @@
 
 
 /*/////   Bottom menu   /////*/
+.menu_bottom_top{
+    display: flex;
+    margin-top: 100px;
+    padding-left: 265px;
+    padding-right: 265px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 1200px;
+    height: 300px;
+    justify-content: space-between;
+}
+.absolute_banner{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+}
+.word_banner{
+    height: 100px;
+    width: 280px;
+    position: absolute;
+    padding-top: 100px;
+    padding-left: 30px;
+}
+
+.menu_bottom_BanChay{
+    display: flex;
+    margin-left: 265px;
+    margin-right: 265px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 1200px;
+    height: 300px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.menu_BanChay{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.menu_BanChay_description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.menu_BanChay_description_unit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn_ThemVaoGio{
+    color: #fff;
+    background-color: #C89979;
+    border: none;
+    border-radius: 2px;
+    height: 30px;
+    width: 115px;
+}
+
+
+.menu_bottom_center{
+    display: flex;
+    margin-top: 100px;
+    padding-left: 265px;
+    padding-right: 265px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 1200px;
+    height: 300px;
+    justify-content: space-between;
+}
+.absolute_small_banner{
+    position: absolute;
+    width: 585px;
+    height: 250px;
+}
+.word_small_banner{
+    height: 120px;
+    width: 270px;
+    position: absolute;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+/*Menu_bottom*/
+.menu_bottom{
+    display: flex;
+    height: 520px;
+    width: 100%;
+    background-color: #333333;
+    margin-top: 100px;
+    padding-top: 75px;
+    padding-left: 270px;
+    padding-right: 270px;
+}
+
+.menu_bottom_unit{
+    line-height: 25px;
+    word-spacing: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    background-color: #333333;
+}
