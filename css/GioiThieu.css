@@ -29,7 +29,7 @@
     flex-direction: row; 
     padding: 20px; 
     justify-content: space-between;
-    padding-left: 270px;
+    padding-left: 17rem;
     padding-right: 270px;
 }
 .menu_center_bottom_top{
@@ -75,7 +75,7 @@
     width: 100%;
     margin-top: 50px;
     padding-top: 75px;
-    padding-left: 270px;
+    padding-left: 17rem;
     padding-right: 270px;
 }
 .img_aboutUs{
@@ -134,6 +134,7 @@
 
 /*banner_total*/
 .banner_total{
+    margin-top: 100px;
     display: flex;
     width: 100%;
 }
@@ -213,8 +214,10 @@
 }
 
 .menu_bottom_unit{
+    padding-left: 10px;
+    padding-right: 10px;
     line-height: 25px;
-    word-spacing: 5px;
+    word-spacing: 2px;
     display: flex;
     flex-direction: column;
     width: 280px;
