@@ -39,9 +39,9 @@
 				<a href="http://127.0.0.1:5501/html/TrangChu.html">
 					<img class="logo-mona-2" src="/img/TrangChu/logo-mona-2.png" style="width: 200px;height: 66.66px;">
 				</a>
-				<div style="justify-content: center;">
-					<input type="text" placeholder="Tìm kiếm..." style="width: 340px;height: 40px;">
-					<button class="button" style="position: absolute;"></button>
+				<div class="search_menu">
+					<input type="text" placeholder="Tìm kiếm..." class="search">
+					<button class="button"></button>
 					<i class="fas fa-search" style="position: absolute;margin-top: 13px;margin-left: 18px;"></i>
 				</div>
 				<div class="margin_top_20px">
@@ -50,45 +50,39 @@
 					<i class="fas fa-shopping-bag" style="color: #ffffff;margin-left: 5px;margin-right: 5px;"></i>
 				</div>
 			</div>
-
-			<div class="menu_center_bottom_top">
+            <div class="menu_center_bottom_top">
 				<nav class="navbar navbar-expand"  >
-
-
-                    <div class="container-fluid" >
-                        <a class="na" href="#"></a>
                     <div class="container-fluid" >
                 
-                    <div class="collapse navbar-collapse" id="navbarsExample02" >
+                      <div class="collapse navbar-collapse" id="navbarsExample02" >
                         <ul class="navbar-nav me-auto" style="margin-left: 50px; margin-right: 50px;">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5501/html/TrangChu.html" style="color: #fff;">TRANG CHỦ</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="http://127.0.0.1:5501/html/GioiThieu.html" style="color: #fff;">GIỚI THIỆU</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="http://127.0.0.1:5501/html/DongHoNam.html" style="color: #fff;">ĐỒNG HỒ NAM</a>
-                        </li>
-                        <li class="nav-item">
+							<li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5501/html/TrangChu.html" style="color: #fff;">TRANG CHỦ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://127.0.0.1:5501/html/GioiThieu.html" style="color: #fff;">GIỚI THIỆU</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://127.0.0.1:5501/html/DongHoNam.html" style="color: #fff;">ĐỒNG HỒ NAM</a>
+							</li>	
+                          <li class="nav-item">
                             <a class="nav-link" href="#" style="color: #fff;">ĐỒNG HỒ NỮ</a>
-                        </li>
-                        <li class="nav-item">
+                          </li>
+                          <li class="nav-item">
                             <a class="nav-link" href="#" style="color: #fff;">BLOG</a>
-                        </li>
-                        <li class="nav-item">
+                          </li>
+                          <li class="nav-item">
                             <a class="nav-link" href="#" style="color: #fff;">LIÊN HỆ</a>
-                        </li>
+                          </li>
                         </ul>
 
+                      </div>
                     </div>
-                    </div>
-            </nav>
+                </nav>
+				
 			</div>
-        </div>
 
-
-        <div style="justify-content: space-between;display: flex;flex-direction: row;padding: 1.5rem;">
+        <div class="TrangChu_menu">
             <div class="font_size_medium">
                 <a href="/html/TrangChu.html" style="opacity: 0.5;color: black;">TRANG CHỦ</a>
                 <span href="/html/TrangChu.html" style="opacity: 0.5;color: black;">/</span>
@@ -105,12 +99,9 @@
             </div>
         </div>
 
-
+        
 
         <div class="SanPham" >
-
-
-
 
 
             <div class="SanPhamList" style="justify-content: space-around;">
@@ -286,9 +277,9 @@
 
         <div class="dangKy">
             <span class="font_size_medium" style="font-weight: 600;">ĐĂNG KÝ NHẬN THÔNG TIN</span>
-            <div>
-                <input type="text" placeholder="Email..." style="width: 350px;height: 40px;">
-			    <button class="button" >ĐĂNG KÝ</button>
+            <div class="dangKy_form">
+                <input class="form" type="text" placeholder="Email...">
+			    <button class="button_DK" >ĐĂNG KÝ</button>
             </div>
         </div>
 
@@ -339,21 +330,25 @@
                     <div class="container-fluid" >
                       <div class="collapse navbar-collapse" id="navbarsExample02" >
                         <ul class="navbar-nav me-auto" style="display: flex;flex-direction: column;line-height: 20px;">
-                          <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#" style="color: #fff;">Giới thiệu</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#" style="color: #fff;">Đồng hồ nam</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#" style="color: #fff;"> Đồng hồ nữ</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#" style="color: #fff;">Blog</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#" style="color: #fff;">Liên hệ</a>
-                          </li>
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://127.0.0.1:5501/html/TrangChu.html" style="color: #fff;">Trang chủ</a>
+                            </li>    
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5501/html/GioiThieu.html" style="color: #fff;">Giới thiệu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://127.0.0.1:5501/html/DongHoNam.html" style="color: #fff;">Đồng hồ nam</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" style="color: #fff;"> Đồng hồ nữ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" style="color: #fff;">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" style="color: #fff;">Liên hệ</a>
+                            </li>
                         </ul>
 
                       </div>
