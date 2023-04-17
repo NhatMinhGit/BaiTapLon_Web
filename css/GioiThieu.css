@@ -6,12 +6,15 @@
 #wrapper{
     display: flex;
     flex-direction: column;
+    height: auto;
     width: 100%;
 }
 
 /*/////   Top menu   /////*/
 .menu_top{
     display: flex;
+    width: 100%;
+    height: auto;
     flex-direction: column;
 }
 .menu_top_top{
@@ -20,8 +23,28 @@
     flex-direction: row; 
     padding: 20px; 
     justify-content: space-between;
-    padding-left: 270px;
-    padding-right: 270px;
+    padding-left: 18.75%;
+    padding-right: 18.75%;
+}
+.search_menu{
+    justify-self: center;
+    align-self: center;
+    width: 23.6%;
+    
+}
+.search{
+    position: flex;
+    width: 100%;
+    height: 2.5rem;
+}
+.button{
+    width: 5%;
+    height: 2.5rem;
+    position: absolute;
+    font-weight: 600;
+    background-color: #C89979;
+    border: none;
+    color: white;
 }
 .menu_center_top{
     background-color: #333333;
@@ -29,9 +52,10 @@
     flex-direction: row; 
     padding: 20px; 
     justify-content: space-between;
-    padding-left: 17rem;
-    padding-right: 270px;
+    padding-left: 18.75%;
+    padding-right: 18.75%;
 }
+
 .menu_center_bottom_top{
     background-color: #333333;
     display: flex;
@@ -39,26 +63,21 @@
     padding: 20px; 
     justify-content: space-around;
     
-    padding-left: 500px;
-    padding-right: 500px;
+    padding-left: 25.7%;
+    padding-right: 25.7%;
 }
 
 .icon{
     position: absolute;
 }
-.button{
-    width: 100px;
-    height: 40px;
-    position: absolute;
-    font-weight: 600;
-    background-color: #C89979;
-    border: none;
-    color: white;
+.logo-mona-2{
+    width: 12.5rem;
+    height: 4.17rem;
 }
 
 .margin_horizontal_5px{
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .margin_top_20px{
     margin-top: 20px;
@@ -69,51 +88,55 @@
 
 
 
+
+
+/*aboutUs*/
+
 .menu_about_us{
     display: flex;
-    height: 520px;
+    height: 36.1%;
     width: 100%;
-    margin-top: 50px;
-    padding-top: 75px;
-    padding-left: 17rem;
-    padding-right: 270px;
+    margin-top: 3.5%;
+    
+    padding-left: 25.7%;
+    padding-right: 25.7%;
 }
 .img_aboutUs{
-    width: 585px;
-    height: 420px;
+    width: 50%;
+    height: 100%;
 }
 .description_aboutUs{
-    width: 600px;
-    height: 300px;
+    width: 50%;
+    height: 100%;
     align-self: center;
-    padding-left: 30px;
+    padding-left: 2.08%;
 }
-.font_size_small{
-    font-size: 15px;
-}
-.font_size_medium{
-    font-size: 25px;
-}
-.font_size_large{
-    font-size: 40px;
-}
+
+
+
+
+
+
+
+
 
 
 
 
 /*grid menu*/
 
-.item1 { grid-area: header; width: 400px;height: 140px; display: flex;flex-direction: row;}
-.item2 { grid-area: menu; width: 400px;height: 140px;display: flex;flex-direction: row;}
-.item3 { grid-area: main; width: 400px;height: 140px;display: flex;flex-direction: row;}
-.item4 { grid-area: right; width: 400px;height: 140px;display: flex;flex-direction: row;}
-.item5 { grid-area: footer; width: 400px;height: 140px;display: flex;flex-direction: row;}
-.item6 { grid-area: left; width: 400px;height: 140px;display: flex;flex-direction: row;}
+.item1 { grid-area: header;  display: flex;flex-direction: row;}
+.item2 { grid-area: menu; display: flex;flex-direction: row;}
+.item3 { grid-area: main; display: flex;flex-direction: row;}
+.item4 { grid-area: right;display: flex;flex-direction: row;}
+.item5 { grid-area: footer;  display: flex;flex-direction: row;}
+.item6 { grid-area: left;  display: flex;flex-direction: row;}
 
 
 .grid-container {
-    padding-left: 265px;
-    padding-right: 265px;
+    padding-left: 18.4%;
+    padding-right: 18.4%;
+    height: auto;
     display: grid;
     grid-template-areas:
         'header menu main '
@@ -127,32 +150,35 @@
 
 .grid-container > div {
   text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
+  padding: 1.5% 0;
+  font-size: 2.1%;
 }
 
 
 /*banner_total*/
 .banner_total{
-    margin-top: 100px;
+    margin-top: 6.94%;
     display: flex;
     width: 100%;
+    height: auto;
+    align-self: center;
 }
 .banner_total_img{
     width: 100%;
     filter: brightness(30%);
+    align-self: center;
 }
 
 
 .banner_total_title{
-    height: 260px;
-    width: 1070px;
-    margin-left: 360px;
+    height: 18%;
+    width: 74.3%;
+    margin-left: 25%;
     justify-content: space-between;
     color: white;
-    align-items: center;
+    align-self: center;
+    justify-self: center;
     position: absolute;
-    display: flex;
 }
 .banner_total_unit{
     text-align: center;
@@ -162,9 +188,10 @@
 /*comment*/
 
 .comment_box{
-    height: 345px;
-    width: 1225px;
-    margin-left: 250px;
+    height: auto;
+    width: 100%;
+    padding-left: 17.4%;
+    padding-right: 17.4%;
     justify-content: space-between;
     color: white;
     align-items: center;
@@ -172,16 +199,16 @@
     flex-direction: row;
 }
 .comment_img{
-    height: 100px;
-    width: 100px;
+    height: 6.25rem;
+    width: 6.25rem;
 }
 .comment_unit{
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
-    width: 400px;
-    height: 270px;
+    width: 30%;
+    height: 30%;
 }
 
 
@@ -193,24 +220,38 @@
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    height: 150px;
+    height: 9.375rem;
     align-items: center;
-    padding-left: 270px;
-    padding-right: 270px;
+    padding-left: 17.4%;
+    padding-right: 17.4%;
     border-top: 1px solid #333333;
 }
-
-
+.dangKy_form{
+    width: 50%;
+    height: 100%;
+    padding: 5%;
+}
+.form{
+    width: 70%;
+}
+.button_DK{
+    width: 5%;
+    height: 3%;
+    position: absolute;
+    font-size: small;
+    font-weight: 600;
+    background-color: #C89979;
+    border: none;
+    color: white;
+}
 /*Menu_bottom*/
 .menu_bottom{
     display: flex;
-    height: 520px;
-    width: 100%;
     background-color: #333333;
-    margin-top: 100px;
-    padding-top: 75px;
-    padding-left: 270px;
-    padding-right: 270px;
+    margin-top: 6.25rem;
+    padding-top: 5.2%;
+    padding-left: 17.4%;
+    padding-right: 17.4%;
 }
 
 .menu_bottom_unit{
@@ -220,6 +261,145 @@
     word-spacing: 2px;
     display: flex;
     flex-direction: column;
-    width: 280px;
+    width: 100%;
     background-color: #333333;
+}
+.font_size_small{
+    font-size: 0.7rem;
+}
+.font_size_medium{
+    font-size: 1.4rem;
+}
+.font_size_large{
+    font-size: 2.1rem;
+}
+/*MOBILE*/
+@media (max-width:600px){
+    #wrapper{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    /***TOP***/
+    .menu_top{
+        width: 100%;
+    }
+    .menu_center_bottom_top{
+        display: none;
+    }
+    .menu_top_top{
+        display: none;
+    }
+    .logo-mona-2{
+        align-self: center;
+        justify-self: center;
+    }
+    .margin_top_20px{
+        display: none;
+    }
+    .search_menu{
+        display: none;
+    }
+   
+    /*
+
+
+
+    /*
+
+*/
+
+
+    /***ABOUTUS***/
+    .menu_about_us{
+        display: flex;
+        height: 36.1%;
+        width: 100%;
+        flex-direction: column;
+    }
+    .img_aboutUs{
+        width: 100%;
+    }
+    .description_aboutUs{
+        width: 100%;
+    }
+
+
+    /***GRID***/
+    .grid-container {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    }
+    /*
+    .banner_total{
+        margin-top: 6.94%;
+        display: flex;
+        width: 100%;
+        align-self: center;
+    }
+    */
+
+    
+    .comment_box{
+        height: 24%;
+        width: 100%;
+        color: white;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .dangKy{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        border-top: 1px solid #333333;
+    }
+    .dangKy_form{
+        width: 100%;
+        height: 100%;
+    }
+    .form{
+        width: 80%;
+    }
+    .button_DK{
+        width: 20%;
+        height: 4.5%;
+        position: absolute;
+        font-size: small;
+        font-weight: 600;
+        background-color: #C89979;
+        border: none;
+        color: white;
+    }
+
+
+
+    /*Menu_bottom*/
+    .menu_bottom{
+        display: flex;
+        height: auto;
+        flex-direction: column;
+        width: 100%;
+        background-color: #333333;
+        margin-top: 6.25rem;
+        justify-content: space-around;
+        padding: 5.2%;
+        
+    }
+
+    .menu_bottom_unit{
+        padding-left: 10px;
+        padding-right: 10px;
+        line-height: 25px;
+        word-spacing: 2px;
+        display: flex;
+        flex-direction: column;
+        width: 280px;
+        background-color: #333333;
+    }
 }
